@@ -16,3 +16,21 @@
 [01-Dec-2016 09:22:04 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 19
 [01-Dec-2016 09:22:04 UTC] PHP Stack trace:
 [01-Dec-2016 09:22:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[01-Dec-2016 09:38:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_user'@'localhost' (using password: YES) in /home/ubuntu/workspace/model/model.php on line 9
+[01-Dec-2016 09:38:14 UTC] PHP Stack trace:
+[01-Dec-2016 09:38:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[01-Dec-2016 09:38:14 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/model/model.php:9
+[01-Dec-2016 09:38:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/model/model.php on line 17
+[01-Dec-2016 09:38:14 UTC] PHP Stack trace:
+[01-Dec-2016 09:38:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[01-Dec-2016 09:38:14 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/model/model.php:17
+[01-Dec-2016 09:38:14 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/model/model.php on line 18
+[01-Dec-2016 09:38:14 UTC] PHP Stack trace:
+[01-Dec-2016 09:38:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[01-Dec-2016 09:38:14 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:18
+[01-Dec-2016 09:38:14 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 19
+[01-Dec-2016 09:38:14 UTC] PHP Stack trace:
+[01-Dec-2016 09:38:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[01-Dec-2016 09:38:14 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 19
+[01-Dec-2016 09:38:14 UTC] PHP Stack trace:
+[01-Dec-2016 09:38:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
