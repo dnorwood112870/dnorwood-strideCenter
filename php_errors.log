@@ -34,3 +34,428 @@
 [01-Dec-2016 09:38:14 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 19
 [01-Dec-2016 09:38:14 UTC] PHP Stack trace:
 [01-Dec-2016 09:38:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:32:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'my_user'@'localhost' (using password: YES) in /home/ubuntu/workspace/model/model.php on line 9
+[02-Dec-2016 20:32:21 UTC] PHP Stack trace:
+[02-Dec-2016 20:32:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:32:21 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/model/model.php:9
+[02-Dec-2016 20:32:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/model/model.php on line 17
+[02-Dec-2016 20:32:21 UTC] PHP Stack trace:
+[02-Dec-2016 20:32:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:32:21 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/model/model.php:17
+[02-Dec-2016 20:32:21 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/model/model.php on line 18
+[02-Dec-2016 20:32:21 UTC] PHP Stack trace:
+[02-Dec-2016 20:32:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:32:21 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:18
+[02-Dec-2016 20:32:21 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:32:21 UTC] PHP Stack trace:
+[02-Dec-2016 20:32:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:32:21 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:32:21 UTC] PHP Stack trace:
+[02-Dec-2016 20:32:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:33:24 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/model/model.php on line 18
+[02-Dec-2016 20:33:24 UTC] PHP Stack trace:
+[02-Dec-2016 20:33:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:33:24 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:18
+[02-Dec-2016 20:33:24 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:33:24 UTC] PHP Stack trace:
+[02-Dec-2016 20:33:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:33:24 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:33:24 UTC] PHP Stack trace:
+[02-Dec-2016 20:33:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:34:25 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/model/model.php on line 18
+[02-Dec-2016 20:34:25 UTC] PHP Stack trace:
+[02-Dec-2016 20:34:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:34:25 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:18
+[02-Dec-2016 20:34:25 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:34:25 UTC] PHP Stack trace:
+[02-Dec-2016 20:34:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:34:25 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:34:25 UTC] PHP Stack trace:
+[02-Dec-2016 20:34:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:35:42 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/ubuntu/workspace/model/model.php on line 17
+[02-Dec-2016 20:35:42 UTC] PHP Stack trace:
+[02-Dec-2016 20:35:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:35:42 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/model/model.php:17
+[02-Dec-2016 20:35:42 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/model/model.php on line 18
+[02-Dec-2016 20:35:42 UTC] PHP Stack trace:
+[02-Dec-2016 20:35:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:35:42 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:18
+[02-Dec-2016 20:35:42 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:35:42 UTC] PHP Stack trace:
+[02-Dec-2016 20:35:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:35:42 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:35:42 UTC] PHP Stack trace:
+[02-Dec-2016 20:35:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:36:43 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/model/model.php on line 17
+[02-Dec-2016 20:36:43 UTC] PHP Stack trace:
+[02-Dec-2016 20:36:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:36:43 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/model/model.php:17
+[02-Dec-2016 20:36:43 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/model/model.php on line 18
+[02-Dec-2016 20:36:43 UTC] PHP Stack trace:
+[02-Dec-2016 20:36:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:36:43 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:18
+[02-Dec-2016 20:36:43 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:36:43 UTC] PHP Stack trace:
+[02-Dec-2016 20:36:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:36:43 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:36:43 UTC] PHP Stack trace:
+[02-Dec-2016 20:36:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:37:41 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/model/model.php on line 17
+[02-Dec-2016 20:37:41 UTC] PHP Stack trace:
+[02-Dec-2016 20:37:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:37:41 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/model/model.php:17
+[02-Dec-2016 20:37:41 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/model/model.php on line 18
+[02-Dec-2016 20:37:41 UTC] PHP Stack trace:
+[02-Dec-2016 20:37:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:37:41 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:18
+[02-Dec-2016 20:37:41 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:37:41 UTC] PHP Stack trace:
+[02-Dec-2016 20:37:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:37:41 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:37:41 UTC] PHP Stack trace:
+[02-Dec-2016 20:37:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:37:49 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/model/model.php on line 17
+[02-Dec-2016 20:37:49 UTC] PHP Stack trace:
+[02-Dec-2016 20:37:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:37:49 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/model/model.php:17
+[02-Dec-2016 20:37:49 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/model/model.php on line 18
+[02-Dec-2016 20:37:49 UTC] PHP Stack trace:
+[02-Dec-2016 20:37:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:37:49 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:18
+[02-Dec-2016 20:37:49 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:37:49 UTC] PHP Stack trace:
+[02-Dec-2016 20:37:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:37:49 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:37:49 UTC] PHP Stack trace:
+[02-Dec-2016 20:37:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:38:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/ubuntu/workspace/model/model.php on line 17
+[02-Dec-2016 20:38:53 UTC] PHP Stack trace:
+[02-Dec-2016 20:38:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:38:53 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/model/model.php:17
+[02-Dec-2016 20:38:53 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/model/model.php on line 18
+[02-Dec-2016 20:38:53 UTC] PHP Stack trace:
+[02-Dec-2016 20:38:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:38:53 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:18
+[02-Dec-2016 20:38:53 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:38:53 UTC] PHP Stack trace:
+[02-Dec-2016 20:38:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:38:53 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:38:53 UTC] PHP Stack trace:
+[02-Dec-2016 20:38:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:43:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/ubuntu/workspace/model/model.php on line 18
+[02-Dec-2016 20:43:03 UTC] PHP Stack trace:
+[02-Dec-2016 20:43:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:43:03 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/model/model.php:18
+[02-Dec-2016 20:43:03 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:43:03 UTC] PHP Stack trace:
+[02-Dec-2016 20:43:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:43:03 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:19
+[02-Dec-2016 20:43:03 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 20
+[02-Dec-2016 20:43:03 UTC] PHP Stack trace:
+[02-Dec-2016 20:43:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:43:03 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 20
+[02-Dec-2016 20:43:03 UTC] PHP Stack trace:
+[02-Dec-2016 20:43:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:43:44 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/model/model.php on line 19
+[02-Dec-2016 20:43:44 UTC] PHP Stack trace:
+[02-Dec-2016 20:43:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:43:44 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:19
+[02-Dec-2016 20:43:44 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 20
+[02-Dec-2016 20:43:44 UTC] PHP Stack trace:
+[02-Dec-2016 20:43:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[02-Dec-2016 20:43:44 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 20
+[02-Dec-2016 20:43:44 UTC] PHP Stack trace:
+[02-Dec-2016 20:43:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 01:19:34 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/model/model.php on line 19
+[03-Dec-2016 01:19:34 UTC] PHP Stack trace:
+[03-Dec-2016 01:19:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 01:19:34 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:19
+[03-Dec-2016 01:19:34 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 20
+[03-Dec-2016 01:19:34 UTC] PHP Stack trace:
+[03-Dec-2016 01:19:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 01:19:34 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 20
+[03-Dec-2016 01:19:34 UTC] PHP Stack trace:
+[03-Dec-2016 01:19:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:21:49 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/model/model.php on line 20
+[03-Dec-2016 04:21:49 UTC] PHP Stack trace:
+[03-Dec-2016 04:21:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:21:49 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:20
+[03-Dec-2016 04:21:49 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:21:49 UTC] PHP Stack trace:
+[03-Dec-2016 04:21:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:21:49 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:21:49 UTC] PHP Stack trace:
+[03-Dec-2016 04:21:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:21:52 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/model/model.php on line 20
+[03-Dec-2016 04:21:52 UTC] PHP Stack trace:
+[03-Dec-2016 04:21:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:21:52 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:20
+[03-Dec-2016 04:21:52 UTC] PHP Warning:  require(view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:21:52 UTC] PHP Stack trace:
+[03-Dec-2016 04:21:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:21:52 UTC] PHP Fatal error:  require(): Failed opening required 'view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:21:52 UTC] PHP Stack trace:
+[03-Dec-2016 04:21:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:22:57 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/model/model.php on line 20
+[03-Dec-2016 04:22:57 UTC] PHP Stack trace:
+[03-Dec-2016 04:22:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:22:57 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:20
+[03-Dec-2016 04:22:57 UTC] PHP Warning:  require(/view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:22:57 UTC] PHP Stack trace:
+[03-Dec-2016 04:22:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:22:57 UTC] PHP Fatal error:  require(): Failed opening required '/view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:22:57 UTC] PHP Stack trace:
+[03-Dec-2016 04:22:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:24:52 UTC] PHP Warning:  mysqli_fetch_all() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/model/model.php on line 20
+[03-Dec-2016 04:24:52 UTC] PHP Stack trace:
+[03-Dec-2016 04:24:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:24:52 UTC] PHP   2. mysqli_fetch_all() /home/ubuntu/workspace/model/model.php:20
+[03-Dec-2016 04:24:52 UTC] PHP Warning:  include(/view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:24:52 UTC] PHP Stack trace:
+[03-Dec-2016 04:24:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:24:52 UTC] PHP Warning:  include(): Failed opening '/view/view.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:24:52 UTC] PHP Stack trace:
+[03-Dec-2016 04:24:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:24:52 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 22
+[03-Dec-2016 04:24:52 UTC] PHP Stack trace:
+[03-Dec-2016 04:24:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:27:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/model/model.php on line 20
+[03-Dec-2016 04:27:41 UTC] PHP Stack trace:
+[03-Dec-2016 04:27:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:27:41 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/model/model.php:20
+[03-Dec-2016 04:27:41 UTC] PHP Warning:  include(/view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:27:41 UTC] PHP Stack trace:
+[03-Dec-2016 04:27:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:27:41 UTC] PHP Warning:  include(): Failed opening '/view/view.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:27:41 UTC] PHP Stack trace:
+[03-Dec-2016 04:27:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:27:41 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 22
+[03-Dec-2016 04:27:41 UTC] PHP Stack trace:
+[03-Dec-2016 04:27:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:38:04 UTC] PHP Warning:  include(/view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:38:04 UTC] PHP Stack trace:
+[03-Dec-2016 04:38:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:38:04 UTC] PHP Warning:  include(): Failed opening '/view/view.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:38:04 UTC] PHP Stack trace:
+[03-Dec-2016 04:38:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:38:04 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 22
+[03-Dec-2016 04:38:04 UTC] PHP Stack trace:
+[03-Dec-2016 04:38:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:41:05 UTC] PHP Warning:  require(/view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:41:05 UTC] PHP Stack trace:
+[03-Dec-2016 04:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:41:05 UTC] PHP Fatal error:  require(): Failed opening required '/view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 21
+[03-Dec-2016 04:41:05 UTC] PHP Stack trace:
+[03-Dec-2016 04:41:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:42:58 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/view/view.php on line 16
+[03-Dec-2016 04:42:58 UTC] PHP Stack trace:
+[03-Dec-2016 04:42:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:44:34 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/view/view.php on line 16
+[03-Dec-2016 04:44:34 UTC] PHP Stack trace:
+[03-Dec-2016 04:44:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:44:41 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/view/view.php on line 16
+[03-Dec-2016 04:44:41 UTC] PHP Stack trace:
+[03-Dec-2016 04:44:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:48:00 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/view/view.php on line 16
+[03-Dec-2016 04:48:00 UTC] PHP Stack trace:
+[03-Dec-2016 04:48:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:52:28 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/view/view.php on line 16
+[03-Dec-2016 04:52:28 UTC] PHP Stack trace:
+[03-Dec-2016 04:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 04:52:35 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/view/view.php on line 16
+[03-Dec-2016 04:52:35 UTC] PHP Stack trace:
+[03-Dec-2016 04:52:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 05:09:28 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/view/view.php on line 16
+[03-Dec-2016 05:09:28 UTC] PHP Stack trace:
+[03-Dec-2016 05:09:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 05:11:03 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/model/model.php on line 17
+[03-Dec-2016 05:45:54 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/ubuntu/workspace/view/view.php on line 14
+[03-Dec-2016 05:45:54 UTC] PHP Stack trace:
+[03-Dec-2016 05:45:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 05:53:26 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/ubuntu/workspace/view/view.php on line 8
+[03-Dec-2016 05:53:26 UTC] PHP Stack trace:
+[03-Dec-2016 05:53:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 06:31:18 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/ubuntu/workspace/view/view.php on line 17
+[03-Dec-2016 06:31:18 UTC] PHP Stack trace:
+[03-Dec-2016 06:31:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 17:29:58 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 22
+[03-Dec-2016 17:29:58 UTC] PHP Stack trace:
+[03-Dec-2016 17:29:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 17:33:27 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 22
+[03-Dec-2016 17:33:27 UTC] PHP Stack trace:
+[03-Dec-2016 17:33:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 17:34:24 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 22
+[03-Dec-2016 17:34:24 UTC] PHP Stack trace:
+[03-Dec-2016 17:34:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 17:37:02 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 17:37:02 UTC] PHP Stack trace:
+[03-Dec-2016 17:37:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 17:37:15 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 17:37:15 UTC] PHP Stack trace:
+[03-Dec-2016 17:37:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 17:38:27 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 17:38:27 UTC] PHP Stack trace:
+[03-Dec-2016 17:38:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 17:45:41 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 17:45:41 UTC] PHP Stack trace:
+[03-Dec-2016 17:45:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 17:51:45 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 17:51:45 UTC] PHP Stack trace:
+[03-Dec-2016 17:51:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 17:58:26 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 17:58:26 UTC] PHP Stack trace:
+[03-Dec-2016 17:58:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 18:02:34 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 18:02:34 UTC] PHP Stack trace:
+[03-Dec-2016 18:02:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 18:25:41 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 18:25:41 UTC] PHP Stack trace:
+[03-Dec-2016 18:25:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 18:29:31 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 18:29:31 UTC] PHP Stack trace:
+[03-Dec-2016 18:29:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 18:30:59 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 18:30:59 UTC] PHP Stack trace:
+[03-Dec-2016 18:30:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 18:32:30 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 18:32:30 UTC] PHP Stack trace:
+[03-Dec-2016 18:32:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 18:36:40 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 18:36:40 UTC] PHP Stack trace:
+[03-Dec-2016 18:36:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 18:38:09 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 18:38:09 UTC] PHP Stack trace:
+[03-Dec-2016 18:38:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 18:43:57 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 18:43:57 UTC] PHP Stack trace:
+[03-Dec-2016 18:43:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 18:47:32 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 18:47:32 UTC] PHP Stack trace:
+[03-Dec-2016 18:47:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 18:47:45 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 18:47:45 UTC] PHP Stack trace:
+[03-Dec-2016 18:47:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 18:52:59 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 18:52:59 UTC] PHP Stack trace:
+[03-Dec-2016 18:52:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:00:25 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:00:25 UTC] PHP Stack trace:
+[03-Dec-2016 19:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:02:37 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:02:37 UTC] PHP Stack trace:
+[03-Dec-2016 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:02:41 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:02:41 UTC] PHP Stack trace:
+[03-Dec-2016 19:02:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:09:19 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:09:19 UTC] PHP Stack trace:
+[03-Dec-2016 19:09:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:11:19 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:11:19 UTC] PHP Stack trace:
+[03-Dec-2016 19:11:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:12:06 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:12:06 UTC] PHP Stack trace:
+[03-Dec-2016 19:12:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:12:38 UTC] PHP Fatal error:  Class 'dataOutputClass' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:12:38 UTC] PHP Stack trace:
+[03-Dec-2016 19:12:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:14:51 UTC] PHP Fatal error:  Class 'data_out_cls' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:14:51 UTC] PHP Stack trace:
+[03-Dec-2016 19:14:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:21:20 UTC] PHP Fatal error:  Class 'data_out_cls' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:21:20 UTC] PHP Stack trace:
+[03-Dec-2016 19:21:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:22:18 UTC] PHP Fatal error:  Class 'data_out_cls' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:22:18 UTC] PHP Stack trace:
+[03-Dec-2016 19:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:27:16 UTC] PHP Fatal error:  Class 'data_out_cls' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:27:16 UTC] PHP Stack trace:
+[03-Dec-2016 19:27:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:27:28 UTC] PHP Fatal error:  Class 'data_out_cls' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:27:28 UTC] PHP Stack trace:
+[03-Dec-2016 19:27:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:31:34 UTC] PHP Fatal error:  Class 'data_out_cls' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:31:34 UTC] PHP Stack trace:
+[03-Dec-2016 19:31:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:31:37 UTC] PHP Fatal error:  Class 'data_out_cls' not found in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:31:37 UTC] PHP Stack trace:
+[03-Dec-2016 19:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:36:14 UTC] PHP Warning:  require_once(/view/view.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:36:14 UTC] PHP Stack trace:
+[03-Dec-2016 19:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:36:14 UTC] PHP Fatal error:  require_once(): Failed opening required '/view/view.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/model.php on line 13
+[03-Dec-2016 19:36:14 UTC] PHP Stack trace:
+[03-Dec-2016 19:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:37:08 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) in /home/ubuntu/workspace/view/view.php on line 32
+[03-Dec-2016 19:37:08 UTC] PHP Stack trace:
+[03-Dec-2016 19:37:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:45:22 UTC] PHP Fatal error:  Call to undefined method mysqli::fetch_array() in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 19:45:22 UTC] PHP Stack trace:
+[03-Dec-2016 19:45:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 19:46:43 UTC] PHP Fatal error:  Call to undefined function fetch_array() in /home/ubuntu/workspace/model/model.php on line 12
+[03-Dec-2016 19:46:43 UTC] PHP Stack trace:
+[03-Dec-2016 19:46:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 20:35:51 UTC] PHP Fatal error:  Call to undefined function mysqli_require_once() in /home/ubuntu/workspace/model/model.php on line 9
+[03-Dec-2016 20:35:51 UTC] PHP Stack trace:
+[03-Dec-2016 20:35:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[03-Dec-2016 20:37:03 UTC] PHP Fatal error:  Call to undefined function mysqli_require_once() in /home/ubuntu/workspace/model/model.php on line 9
+[03-Dec-2016 20:37:03 UTC] PHP Stack trace:
+[03-Dec-2016 20:37:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 03:15:05 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/view/view.php on line 15
+[04-Dec-2016 03:15:05 UTC] PHP Stack trace:
+[04-Dec-2016 03:15:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 03:15:05 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/model.php:14
+[04-Dec-2016 03:29:52 UTC] PHP Warning:  mysqli_stmt::execute() expects exactly 0 parameters, 1 given in /home/ubuntu/workspace/model/model.php on line 13
+[04-Dec-2016 03:29:52 UTC] PHP Stack trace:
+[04-Dec-2016 03:29:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 03:29:52 UTC] PHP   2. mysqli_stmt->execute() /home/ubuntu/workspace/model/model.php:13
+[04-Dec-2016 03:29:52 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_array() in /home/ubuntu/workspace/model/model.php on line 14
+[04-Dec-2016 03:29:52 UTC] PHP Stack trace:
+[04-Dec-2016 03:29:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 03:30:43 UTC] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_array() in /home/ubuntu/workspace/model/model.php on line 14
+[04-Dec-2016 03:30:43 UTC] PHP Stack trace:
+[04-Dec-2016 03:30:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:20:20 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:20:20 UTC] PHP Stack trace:
+[04-Dec-2016 23:20:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:20:49 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:20:49 UTC] PHP Stack trace:
+[04-Dec-2016 23:20:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:20:52 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:20:52 UTC] PHP Stack trace:
+[04-Dec-2016 23:20:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:20:52 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:20:52 UTC] PHP Stack trace:
+[04-Dec-2016 23:20:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:20:53 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:20:53 UTC] PHP Stack trace:
+[04-Dec-2016 23:20:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:20:53 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:20:53 UTC] PHP Stack trace:
+[04-Dec-2016 23:20:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:20:54 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:20:54 UTC] PHP Stack trace:
+[04-Dec-2016 23:20:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:20:54 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:20:54 UTC] PHP Stack trace:
+[04-Dec-2016 23:20:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:21:54 UTC] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_param() in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:21:54 UTC] PHP Stack trace:
+[04-Dec-2016 23:21:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:21:54 UTC] PHP   2. mysqli_stmt->bind_param() /home/ubuntu/workspace/model/model.php:12
+[04-Dec-2016 23:23:32 UTC] PHP Fatal error:  Call to undefined method mysqli::bind_param() in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:23:32 UTC] PHP Stack trace:
+[04-Dec-2016 23:23:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:27:28 UTC] PHP Warning:  Wrong parameter count for mysqli_stmt_bind_param() in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:27:28 UTC] PHP Stack trace:
+[04-Dec-2016 23:27:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:27:28 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/model/model.php:12
+[04-Dec-2016 23:27:57 UTC] PHP Warning:  Wrong parameter count for mysqli_stmt_bind_param() in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:27:57 UTC] PHP Stack trace:
+[04-Dec-2016 23:27:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:27:57 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/model/model.php:12
+[04-Dec-2016 23:28:01 UTC] PHP Warning:  Wrong parameter count for mysqli_stmt_bind_param() in /home/ubuntu/workspace/model/model.php on line 12
+[04-Dec-2016 23:28:01 UTC] PHP Stack trace:
+[04-Dec-2016 23:28:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/model.php:0
+[04-Dec-2016 23:28:01 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/model/model.php:12
+[04-Dec-2016 23:29:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/model/model.php on line 19

@@ -13,7 +13,7 @@
 <h3 style="color:#ffaa00"><b>Please sign the U.S. Department of Internet Security guestbook.</b></h3>
 <br/>
 <blockquote>
-<form action="welcomeGet.php" method="post">
+<form action="/model/guestBook.php" method="post">
 First and last name: <input type="text" name="name"/><br/><br/>
 Email address: <input type="text" name="email"/><br/><br/> 
 Birthdate: <input type="text" name="birthdate"/><br/><br/> 
