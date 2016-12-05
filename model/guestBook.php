@@ -7,8 +7,7 @@ if ($mysqli->connect_errno) {
     exit();
 }
 
-require_once('/home/ubuntu/workspace/view/guestBook.php');
-
+require_once('view/guestBook.php');
 $name = $_POST["name"];
 $email = $_POST["email"];
 $birthdate = $_POST["birthdate"];
