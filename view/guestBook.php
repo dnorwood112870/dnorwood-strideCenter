@@ -10,7 +10,11 @@ class data_out_cls {
   public function data_out_fnc($result) {
     if ($result == TRUE) {
         
-        echo "NEW COMMENT ADDED!!!";
+        $url ="/index.php";
+        $url2="/controller/searchComments.php";
+        echo "NEW COMMENT ADDED!!!<br/><br/>";
+        echo "<a href=$url2>SEARCH FOR COMMENTS</a>";
+        
     }
     
     else {echo "PLEASE TRY AGAIN!!!";}

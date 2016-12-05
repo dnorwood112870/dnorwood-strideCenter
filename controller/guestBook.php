@@ -19,6 +19,9 @@ Email address: <input type="text" name="email"/><br/><br/>
 Birthdate: <input type="text" name="birthdate"/><br/><br/> 
 Comment: <input type="text" name="comment"/><br/><br/> 
 <input type="submit" value="GO"/><br/><br/> 
+<?php 
+$url="/index.php";
+echo "<a href=$url>Home</a>"; ?>
 </blockquote>
 </form>
 </body>

@@ -465,3 +465,45 @@
 [05-Dec-2016 05:10:08 UTC] PHP Fatal error:  require_once(): Failed opening required '/view/guestBook.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/guestBook.php on line 10
 [05-Dec-2016 05:10:08 UTC] PHP Stack trace:
 [05-Dec-2016 05:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:11:46 UTC] PHP Warning:  require_once(view/guestBook.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/guestBook.php on line 10
+[05-Dec-2016 05:11:46 UTC] PHP Stack trace:
+[05-Dec-2016 05:11:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:11:46 UTC] PHP Fatal error:  require_once(): Failed opening required 'view/guestBook.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/guestBook.php on line 10
+[05-Dec-2016 05:11:46 UTC] PHP Stack trace:
+[05-Dec-2016 05:11:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:13:01 UTC] PHP Warning:  require_once(/view/guestBook.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/guestBook.php on line 10
+[05-Dec-2016 05:13:01 UTC] PHP Stack trace:
+[05-Dec-2016 05:13:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:13:01 UTC] PHP Fatal error:  require_once(): Failed opening required '/view/guestBook.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/guestBook.php on line 10
+[05-Dec-2016 05:13:01 UTC] PHP Stack trace:
+[05-Dec-2016 05:13:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:13:46 UTC] PHP Warning:  require_once(/view/guestBook.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/guestBook.php on line 10
+[05-Dec-2016 05:13:46 UTC] PHP Stack trace:
+[05-Dec-2016 05:13:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:13:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/view/guestBook.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/guestBook.php on line 10
+[05-Dec-2016 05:13:46 UTC] PHP Stack trace:
+[05-Dec-2016 05:13:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:15:09 UTC] PHP Warning:  require_once(view/guestBook.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/guestBook.php on line 10
+[05-Dec-2016 05:15:09 UTC] PHP Stack trace:
+[05-Dec-2016 05:15:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:15:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'view/guestBook.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/guestBook.php on line 10
+[05-Dec-2016 05:15:09 UTC] PHP Stack trace:
+[05-Dec-2016 05:15:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:16:01 UTC] PHP Warning:  include(view/guestBook.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/guestBook.php on line 10
+[05-Dec-2016 05:16:01 UTC] PHP Stack trace:
+[05-Dec-2016 05:16:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:16:01 UTC] PHP Warning:  include(): Failed opening 'view/guestBook.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/guestBook.php on line 10
+[05-Dec-2016 05:16:01 UTC] PHP Stack trace:
+[05-Dec-2016 05:16:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:16:01 UTC] PHP Fatal error:  Class 'data_out_cls' not found in /home/ubuntu/workspace/model/guestBook.php on line 19
+[05-Dec-2016 05:16:01 UTC] PHP Stack trace:
+[05-Dec-2016 05:16:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:48:58 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/view/guestBook.php on line 15
+[05-Dec-2016 05:48:58 UTC] PHP Stack trace:
+[05-Dec-2016 05:48:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[05-Dec-2016 05:50:25 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/view/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/model/searchComments.php on line 10
+[05-Dec-2016 05:50:25 UTC] PHP Stack trace:
+[05-Dec-2016 05:50:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[05-Dec-2016 05:50:25 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/view/searchComments.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/searchComments.php on line 10
+[05-Dec-2016 05:50:25 UTC] PHP Stack trace:
+[05-Dec-2016 05:50:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
