@@ -7,8 +7,8 @@ if ($mysqli->connect_errno) {
 }
 
 include('/home/ubuntu/workspace/view/searchComments.php');
-$email=$_POST["email"];
-$sql = "SELECT email, comments FROM UserComments where email = '$email'";
+$email=$_GET["email"];
+$sql = "SELECT DISTINCT email, comments FROM UserComments where email = '$email'";
 $result = $mysqli->query($sql);
 $getData = new data_out_cls;
 $getData->data_out_fnc($result);

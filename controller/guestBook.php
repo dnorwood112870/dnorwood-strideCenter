@@ -1,28 +1,26 @@
-<!DOCTYPE HTML>
+<!DOCTYPE !DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 <html>
 <head>
+<script type="text/javascript" src="/scripts/javascript/iRoot.js"></script>
+<link rel="stylesheet" href="/css/iRoot.css">
 <meta charset="UTF-8">
 <title>U.S. Department of Internet Security Guestbook Page</title>
-<style>
-    a:link {color:#ff9900;}
-    a:visited {color:#f9900;}
-    a:hover {background:#ffebcc;}
-</style>
-</head>   
 <body>
+<blockquote>
 <h3 style="color:#ffaa00"><b>Please sign the U.S. Department of Internet Security guestbook.</b></h3>
 <br/>
-<blockquote>
-<form action="/model/guestBook.php" method="post">
-First and last name: <input type="text" name="name"/><br/><br/>
-Email address: <input type="text" name="email"/><br/><br/> 
-Birthdate: <input type="text" name="birthdate"/><br/><br/> 
-Comment: <input type="text" name="comment"/><br/><br/> 
-<input type="submit" value="GO"/><br/><br/> 
-<?php 
-$url="/index.php";
-echo "<a href=$url>Home</a>"; ?>
-</blockquote>
+<img src="/images/iRoot.jpg" alt="iSecurity logo" /><br/><br/>
+<form action="model/guestBook.php" name="guestForm" onsubmit="return validateForm_guest()" method="get">
+First and last name:<input type="text" name="name" maxlength="50" size="25"><br/><br/>
+<strong>* Email address:</strong><input type="text" name="email" maxlength="50" size="25"/><br/><br/>
+                 <input type="hidden" name="cnt" value="guestBook" />
+Birthdate: <input type="text" name="birthdate" maxlength="20" size="20"/><br/><br/>
+<strong>* Comment:</strong><br/><br/><textarea name="comment" id="comment" maxlength="1000" style="height:200px; width:250px"></textarea><br/><br/>
+<input type="submit" value="Add Comment" id='addCommentBtn'/><br/>
 </form>
+<?php 
+$url="index.php?cnt=main";
+echo "<a href=$url><button id='homeBtn'>Home</button></a>"; ?>
+</blockquote>
 </body>
 </html>

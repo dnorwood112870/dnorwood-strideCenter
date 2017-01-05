@@ -507,3 +507,66 @@
 [05-Dec-2016 05:50:25 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/view/searchComments.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/model/searchComments.php on line 10
 [05-Dec-2016 05:50:25 UTC] PHP Stack trace:
 [05-Dec-2016 05:50:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[11-Dec-2016 01:16:57 UTC] PHP Warning:  require(/index.php?cnt=searchComments): failed to open stream: No such file or directory in /home/ubuntu/workspace/view/guestBook.php on line 16
+[11-Dec-2016 01:16:57 UTC] PHP Stack trace:
+[11-Dec-2016 01:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[11-Dec-2016 01:16:57 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/guestBook.php:24
+[11-Dec-2016 01:16:57 UTC] PHP Fatal error:  require(): Failed opening required '/index.php?cnt=searchComments' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view/guestBook.php on line 16
+[11-Dec-2016 01:16:57 UTC] PHP Stack trace:
+[11-Dec-2016 01:16:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[11-Dec-2016 01:16:57 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/guestBook.php:24
+[11-Dec-2016 01:19:01 UTC] PHP Warning:  require(/controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view/guestBook.php on line 16
+[11-Dec-2016 01:19:01 UTC] PHP Stack trace:
+[11-Dec-2016 01:19:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[11-Dec-2016 01:19:01 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/guestBook.php:24
+[11-Dec-2016 01:19:01 UTC] PHP Fatal error:  require(): Failed opening required '/controller/searchComments.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view/guestBook.php on line 16
+[11-Dec-2016 01:19:01 UTC] PHP Stack trace:
+[11-Dec-2016 01:19:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[11-Dec-2016 01:19:01 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/guestBook.php:24
+[11-Dec-2016 01:19:42 UTC] PHP Warning:  require(controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view/guestBook.php on line 16
+[11-Dec-2016 01:19:42 UTC] PHP Stack trace:
+[11-Dec-2016 01:19:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[11-Dec-2016 01:19:42 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/guestBook.php:24
+[11-Dec-2016 01:19:42 UTC] PHP Fatal error:  require(): Failed opening required 'controller/searchComments.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view/guestBook.php on line 16
+[11-Dec-2016 01:19:42 UTC] PHP Stack trace:
+[11-Dec-2016 01:19:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[11-Dec-2016 01:19:42 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/guestBook.php:24
+[11-Dec-2016 01:20:03 UTC] PHP Warning:  include(controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view/guestBook.php on line 16
+[11-Dec-2016 01:20:03 UTC] PHP Stack trace:
+[11-Dec-2016 01:20:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[11-Dec-2016 01:20:03 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/guestBook.php:24
+[11-Dec-2016 01:20:03 UTC] PHP Warning:  include(): Failed opening 'controller/searchComments.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view/guestBook.php on line 16
+[11-Dec-2016 01:20:03 UTC] PHP Stack trace:
+[11-Dec-2016 01:20:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[11-Dec-2016 01:20:03 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/guestBook.php:24
+[11-Dec-2016 01:20:36 UTC] PHP Warning:  include(/controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view/guestBook.php on line 16
+[11-Dec-2016 01:20:36 UTC] PHP Stack trace:
+[11-Dec-2016 01:20:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[11-Dec-2016 01:20:36 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/guestBook.php:24
+[11-Dec-2016 01:20:36 UTC] PHP Warning:  include(): Failed opening '/controller/searchComments.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view/guestBook.php on line 16
+[11-Dec-2016 01:20:36 UTC] PHP Stack trace:
+[11-Dec-2016 01:20:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[11-Dec-2016 01:20:36 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/guestBook.php:24
+[11-Dec-2016 05:29:37 UTC] PHP Warning:  include(/controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view/searchComments.php on line 17
+[11-Dec-2016 05:29:37 UTC] PHP Stack trace:
+[11-Dec-2016 05:29:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[11-Dec-2016 05:29:37 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:14
+[11-Dec-2016 05:29:37 UTC] PHP Warning:  include(): Failed opening '/controller/searchComments.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view/searchComments.php on line 17
+[11-Dec-2016 05:29:37 UTC] PHP Stack trace:
+[11-Dec-2016 05:29:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[11-Dec-2016 05:29:37 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:14
+[11-Dec-2016 05:32:52 UTC] PHP Warning:  include(~/controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view/searchComments.php on line 17
+[11-Dec-2016 05:32:52 UTC] PHP Stack trace:
+[11-Dec-2016 05:32:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[11-Dec-2016 05:32:52 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:14
+[11-Dec-2016 05:32:52 UTC] PHP Warning:  include(): Failed opening '~/controller/searchComments.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view/searchComments.php on line 17
+[11-Dec-2016 05:32:52 UTC] PHP Stack trace:
+[11-Dec-2016 05:32:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[11-Dec-2016 05:32:52 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:14
+[11-Dec-2016 05:50:52 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/ubuntu/workspace/view/searchComments.php on line 43
+[11-Dec-2016 05:50:52 UTC] PHP Stack trace:
+[11-Dec-2016 05:50:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[16-Dec-2016 03:58:14 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ubuntu/workspace/view/searchComments.php on line 20
+[16-Dec-2016 03:58:14 UTC] PHP Stack trace:
+[16-Dec-2016 03:58:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[16-Dec-2016 03:58:14 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:14

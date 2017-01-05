@@ -1,0 +1,54 @@
+body {
+    
+    display: block;
+    margin: 20px;
+    
+}
+
+body:focus { 
+    outline: none;
+}
+
+#iSearchBtn, #homeBtn, #addCommentBtn {
+    
+    color: #006600;
+}
+
+a:link {
+    
+    color:#ff9900;
+    
+}
+    
+a:visited {
+    
+    color:#f9900;
+    
+}
+
+a:hover {
+    
+    background:#ffebcc;
+    
+}
+
+.about_ul{
+    display: block;
+    list-style-type: disc;
+    margin: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    
+}
+
+.h1 {
+    
+    color: red;
+    
+}
+
+
+
+
