@@ -1,5 +1,6 @@
 <?php
-$mysqli = new mysqli("localhost","root","elite1976","iRoot");
+##$mysqli = new mysqli("localhost","root","elite1976","iRoot");
+$mysqli = new mysqli("us-cdbr-iron-east-03.cleardb.net","b92fa14bf9b544","bd57c2d04bf9556","heroku_7c8f80f63a5a60c");
 
 if ($mysqli->connect_errno) {
     printf("Connect failed: %s\n", $mysqli->connect_error);
