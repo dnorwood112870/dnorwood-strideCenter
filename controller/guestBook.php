@@ -4,9 +4,12 @@
 <script type="text/javascript" src="/scripts/javascript/iRoot.js"></script>
 <link rel="stylesheet" href="/css/iRoot.css">
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial=scale=1, maximum-scale=1" > 
 <title>U.S. Department of Internet Security Guestbook Page</title>
 <body>
 <blockquote>
+<h1>U.S. Department of Internet Security Home Page</h1>   
+<a href="https://rubypractice-dnorwood.c9users.io/users/sign_in">Sign In</a> | <a href="https://rubypractice-dnorwood.c9users.io/users/sign_up">Sign Up</a> | <a href="http://www.usa.gov">USA.gov</a>
 <h3 style="color:#ffaa00"><b>Please sign the U.S. Department of Internet Security guestbook.</b></h3>
 <br/>
 <img src="/images/iRoot.jpg" alt="iSecurity logo" /><br/><br/>

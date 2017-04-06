@@ -4,11 +4,11 @@
 <link rel="stylesheet" href="/css/iRoot.css">
 <script type="text/javascript" src="/scripts/javascript/iRoot.js"></script>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial=scale=1, maximum-scale=1" > 
 <title>SEARCH FOR COMMENTS PAGE (iSearch)</title>
 </head> 
 <body>
-<blockquote>
-<h3 style="color:#ffaa00"><b>Please enter an email address to search for comments about us!!!</b></h3>
+<h3 style="color:#ffaa00"><b>Please enter an email address to search for comments about iSEC!!!</b></h3>
 <br/>
 <form action="/model/searchComments.php" name="iSearch" onSubmit="return validateForm_search()"/>
 <img src="/images/iRoot.jpg" alt="iSecurity logo" /><br/><br/>
@@ -17,7 +17,6 @@
 <input type="submit" value="iSearch" id="iSearchBtn"/>
 </form>
 <a href="/index.php?cnt=guestBook"><button id="iSearchBtn">Sign Guestbook</button></a>
-</blockquote>
 <br/>
 <br/>
 </body>
