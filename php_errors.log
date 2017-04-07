@@ -630,3 +630,89 @@
 [06-Apr-2017 18:33:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
 [06-Apr-2017 18:33:03 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:14
 [06-Apr-2017 18:33:03 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[06-Apr-2017 18:43:10 UTC] PHP Warning:  include(controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/_header.php on line 13
+[06-Apr-2017 18:43:10 UTC] PHP Stack trace:
+[06-Apr-2017 18:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[06-Apr-2017 18:43:10 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[06-Apr-2017 18:43:10 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[06-Apr-2017 18:43:10 UTC] PHP Warning:  include(): Failed opening 'controller/searchComments.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/_header.php on line 13
+[06-Apr-2017 18:43:10 UTC] PHP Stack trace:
+[06-Apr-2017 18:43:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[06-Apr-2017 18:43:10 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[06-Apr-2017 18:43:10 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[06-Apr-2017 19:07:07 UTC] PHP Warning:  include(controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/_header.php on line 13
+[06-Apr-2017 19:07:07 UTC] PHP Stack trace:
+[06-Apr-2017 19:07:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[06-Apr-2017 19:07:07 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[06-Apr-2017 19:07:07 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[06-Apr-2017 19:07:07 UTC] PHP Warning:  include(): Failed opening 'controller/searchComments.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/_header.php on line 13
+[06-Apr-2017 19:07:07 UTC] PHP Stack trace:
+[06-Apr-2017 19:07:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[06-Apr-2017 19:07:07 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[06-Apr-2017 19:07:07 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[06-Apr-2017 19:07:49 UTC] PHP Warning:  include(controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/_header.php on line 13
+[06-Apr-2017 19:07:49 UTC] PHP Stack trace:
+[06-Apr-2017 19:07:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[06-Apr-2017 19:07:49 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[06-Apr-2017 19:07:49 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[06-Apr-2017 19:07:49 UTC] PHP Warning:  include(): Failed opening 'controller/searchComments.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/_header.php on line 13
+[06-Apr-2017 19:07:49 UTC] PHP Stack trace:
+[06-Apr-2017 19:07:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[06-Apr-2017 19:07:49 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[06-Apr-2017 19:07:49 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[06-Apr-2017 19:08:36 UTC] PHP Warning:  include(controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/_header.php on line 13
+[06-Apr-2017 19:08:36 UTC] PHP Stack trace:
+[06-Apr-2017 19:08:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[06-Apr-2017 19:08:36 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[06-Apr-2017 19:08:36 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[06-Apr-2017 19:08:36 UTC] PHP Warning:  include(): Failed opening 'controller/searchComments.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/_header.php on line 13
+[06-Apr-2017 19:08:36 UTC] PHP Stack trace:
+[06-Apr-2017 19:08:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[06-Apr-2017 19:08:36 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[06-Apr-2017 19:08:36 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[07-Apr-2017 03:01:22 UTC] PHP Warning:  include(controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/_header.php on line 13
+[07-Apr-2017 03:01:22 UTC] PHP Stack trace:
+[07-Apr-2017 03:01:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 03:01:22 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[07-Apr-2017 03:01:22 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[07-Apr-2017 03:01:22 UTC] PHP Warning:  include(): Failed opening 'controller/searchComments.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/_header.php on line 13
+[07-Apr-2017 03:01:22 UTC] PHP Stack trace:
+[07-Apr-2017 03:01:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 03:01:22 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[07-Apr-2017 03:01:22 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[07-Apr-2017 03:02:16 UTC] PHP Warning:  include(controller/searchComments.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/_header.php on line 13
+[07-Apr-2017 03:02:16 UTC] PHP Stack trace:
+[07-Apr-2017 03:02:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 03:02:16 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[07-Apr-2017 03:02:16 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[07-Apr-2017 03:02:16 UTC] PHP Warning:  include(): Failed opening 'controller/searchComments.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/_header.php on line 13
+[07-Apr-2017 03:02:16 UTC] PHP Stack trace:
+[07-Apr-2017 03:02:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 03:02:16 UTC] PHP   2. data_out_cls->data_out_fnc() /home/ubuntu/workspace/model/searchComments.php:15
+[07-Apr-2017 03:02:16 UTC] PHP   3. include() /home/ubuntu/workspace/view/searchComments.php:18
+[07-Apr-2017 03:08:42 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'b92fa14bf9b544'@'localhost' to database 'heroku_7c8f80f63a5a60c' in /home/ubuntu/workspace/model/searchComments.php on line 3
+[07-Apr-2017 03:08:42 UTC] PHP Stack trace:
+[07-Apr-2017 03:08:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 03:08:42 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/model/searchComments.php:3
+[07-Apr-2017 03:16:17 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'b92fa14bf9b544'@'localhost' to database 'heroku_7c8f80f63a5a60c' in /home/ubuntu/workspace/model/searchComments.php on line 3
+[07-Apr-2017 03:16:17 UTC] PHP Stack trace:
+[07-Apr-2017 03:16:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 03:16:17 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/model/searchComments.php:3
+[07-Apr-2017 03:18:16 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'b92fa14bf9b544'@'localhost' to database 'heroku_7c8f80f63a5a60c' in /home/ubuntu/workspace/model/searchComments.php on line 3
+[07-Apr-2017 03:18:16 UTC] PHP Stack trace:
+[07-Apr-2017 03:18:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 03:18:16 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/model/searchComments.php:3
+[07-Apr-2017 03:22:00 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'b92fa14bf9b544'@'localhost' to database 'heroku_7c8f80f63a5a60c' in /home/ubuntu/workspace/model/searchComments.php on line 3
+[07-Apr-2017 03:22:00 UTC] PHP Stack trace:
+[07-Apr-2017 03:22:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 03:22:00 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/model/searchComments.php:3
+[07-Apr-2017 19:18:34 UTC] PHP Fatal error:  Class 'data_out_cls' not found in /home/ubuntu/workspace/model/searchComments.php on line 14
+[07-Apr-2017 19:18:34 UTC] PHP Stack trace:
+[07-Apr-2017 19:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 19:19:21 UTC] PHP Fatal error:  Class 'data_out_cls' not found in /home/ubuntu/workspace/model/searchComments.php on line 14
+[07-Apr-2017 19:19:21 UTC] PHP Stack trace:
+[07-Apr-2017 19:19:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 19:29:56 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'b92fa14bf9b544'@'localhost' to database 'heroku_7c8f80f63a5a60c' in /home/ubuntu/workspace/model/guestBook.php on line 4
+[07-Apr-2017 19:29:56 UTC] PHP Stack trace:
+[07-Apr-2017 19:29:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
+[07-Apr-2017 19:29:56 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/model/guestBook.php:4

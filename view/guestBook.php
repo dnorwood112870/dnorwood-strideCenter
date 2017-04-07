@@ -14,7 +14,7 @@ class data_out_cls {
     if ($result == TRUE) {
         
       
-        include("/home/ubuntu/workspace/includes/_header.php");
+        #include("/home/ubuntu/workspace/includes/_header.php");
         echo "<blockquote><h1>NEW COMMENT ADDED!!!</h1><br/></blockquote>";
         require("/home/ubuntu/workspace/controller/searchComments.php");
         

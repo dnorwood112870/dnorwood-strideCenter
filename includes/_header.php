@@ -10,7 +10,7 @@
 </div>
 </blockquote>
 <blockquote>
-    <?php include('controller/searchComments.php'); ?>
+<?php include('/home/ubuntu/workspace/controller/searchComments.php'); ?>
 </blockquote>
 <blockquote>
 <h1 id="about">ABOUT THE U.S. DEPARTMENT OF INTERNET SECURITY</h1>

@@ -15,7 +15,7 @@ class data_out_cls {
 
     
   public function data_out_fnc($result) {
-        include("/home/ubuntu/workspace/includes/_header.php"); 	
+        #include("/home/ubuntu/workspace/includes/_header.php"); 	
         include("/home/ubuntu/workspace/controller/searchComments.php");
         if (($result->num_rows != 0)) { 
                 echo "<blockquote><h1>SEARCH RESULTS:</h1>";            

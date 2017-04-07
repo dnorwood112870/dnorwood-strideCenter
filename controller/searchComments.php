@@ -8,6 +8,7 @@
 <title>SEARCH FOR COMMENTS PAGE (iSearch)</title>
 </head> 
 <body>
+
 <h3 style="color:#ffaa00"><b>Please enter an email address to search for comments about iSEC!!!</b></h3>
 <br/>
 <form action="/model/searchComments.php" name="iSearch" onSubmit="return validateForm_search()"/>

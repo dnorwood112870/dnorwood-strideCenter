@@ -21,6 +21,7 @@
             
              if ($_GET["cnt"] == "guestBook") 
            {
+                 
                 include('controller/guestBook.php');
            }
             
