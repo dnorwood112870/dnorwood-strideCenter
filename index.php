@@ -5,7 +5,7 @@
 <link rel="icon" href="images/iRoot.jpg">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial=scale=1, maximum-scale=1" > 
-<title>U.S. Department of Internet Security Home Page!!!!!!</title>
+<title>U.S. Department of Internet Security Home Page!!!!!!!</title>
 </head>   
 <body>
 <?php
