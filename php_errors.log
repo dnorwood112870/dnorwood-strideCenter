@@ -716,3 +716,19 @@
 [07-Apr-2017 19:29:56 UTC] PHP Stack trace:
 [07-Apr-2017 19:29:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/guestBook.php:0
 [07-Apr-2017 19:29:56 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/model/guestBook.php:4
+[07-Apr-2017 21:02:56 UTC] PHP Warning:  mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/model/searchComments.php on line 3
+[07-Apr-2017 21:02:56 UTC] PHP Stack trace:
+[07-Apr-2017 21:02:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 21:02:56 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/model/searchComments.php:3
+[07-Apr-2017 21:02:56 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/model/searchComments.php on line 3
+[07-Apr-2017 21:02:56 UTC] PHP Stack trace:
+[07-Apr-2017 21:02:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 21:02:56 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/model/searchComments.php:3
+[07-Apr-2017 21:42:27 UTC] PHP Warning:  mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/model/searchComments.php on line 3
+[07-Apr-2017 21:42:27 UTC] PHP Stack trace:
+[07-Apr-2017 21:42:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 21:42:27 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/model/searchComments.php:3
+[07-Apr-2017 21:42:27 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/model/searchComments.php on line 3
+[07-Apr-2017 21:42:27 UTC] PHP Stack trace:
+[07-Apr-2017 21:42:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/model/searchComments.php:0
+[07-Apr-2017 21:42:27 UTC] PHP   2. mysqli->mysqli() /home/ubuntu/workspace/model/searchComments.php:3
